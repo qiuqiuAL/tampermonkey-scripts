@@ -1,17 +1,4 @@
-// ==UserScript==
-// @name         智谱上传图片下载视频工具 v2.8.5
-// @namespace    tsx
-// @version      2.8.5
-// @description  保留提示词+悬浮按钮+严格顺序处理：上传–生成–下载–再上传下一个，避免重复下载
-// @match        https://chatglm.cn/*
-// @grant        GM_notification
-// @grant        GM_xmlhttpRequest
-// @grant        GM.getValue
-// @grant        GM.setValue
-// ==/UserScript==
 
-;(async function () {
-    'use strict';
 
     // ===== 离线许可校验配置 =====
     // 有效许可码的 HMAC-SHA256 哈希值列表（不包含明文 code）
@@ -344,5 +331,3 @@
     }
 });
 
-
-})();
