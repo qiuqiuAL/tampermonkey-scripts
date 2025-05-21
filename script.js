@@ -1,5 +1,3 @@
-
-
     // ===== 离线许可校验配置 =====
     // 有效许可码的 HMAC-SHA256 哈希值列表（不包含明文 code）
     const VALID_LICENSE_HASHES = [
@@ -330,4 +328,3 @@
         console.log(`📊 本次运行 ${Math.round(delta/60)} 分钟，总使用 ${hrsUsed} 小时，剩余 ${hrsLeft} 小时。`);
     }
 });
-
